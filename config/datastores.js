@@ -49,7 +49,7 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     adapter: 'sails-postgresql',
-    url: 'postgres://bridge:Jithus@1991@localhost:5432/bridge',
+    url: process.env.DATABASE_URLI,
 
   },
 

@@ -251,7 +251,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     onlyAllowOrigins: [
-      'http://localhost:1337',
+      process.env.ORIGIN_URL,
     ],
 
 
