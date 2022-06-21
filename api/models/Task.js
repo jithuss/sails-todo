@@ -14,6 +14,10 @@ module.exports = {
     description: {
       type: 'string'
     },
+    completed: {
+      type: 'boolean',
+      defaultsTo: false
+    },
     user: {
       model: 'user'
     }

@@ -30,6 +30,9 @@ module.exports.routes = {
   'GET /api/task/:id': {
     action: 'tasks/get-task'
   },
+  'PATCH /api/task/:id': {
+    action: 'tasks/patch-task'
+  },
   'DELETE /api/task/:id': {
     action: 'tasks/delete-task'
   }
